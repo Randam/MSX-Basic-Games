@@ -5,3 +5,8 @@
 @media(min-width:761px){.desk{height:590px}.library{max-height:783px}}
 @media(min-width:761px) and (max-width:1050px){.desk{height:555px}.library{max-height:748px}}
 @media(max-width:450px){.desk{height:470px}}
+
+@media(min-width:761px){.desk{height:650px}.library{max-height:843px}}
+@media(min-width:761px) and (max-width:1050px){.desk{height:630px}.library{max-height:823px}}
+@media(min-width:451px) and (max-width:760px){.desk{height:630px}}
+@media(max-width:450px){.desk{height:500px}}
