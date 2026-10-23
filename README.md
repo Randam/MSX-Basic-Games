@@ -13,3 +13,9 @@ Games en screenshots: https://www.jeroenderwort.nl/wp-content/uploads/jermsx/jer
 Emulator: WebMSX 6.0 embedded-release uit https://github.com/ppeccin/WebMSX. Copyright Paulo Augusto Peccin; zie de verklaring in dist/emulator/wmsx.js en https://webmsx.org. Model- en merknamen behoren aan hun eigenaren.
 
 MSX-logo: de originele vectorvorm via https://commons.wikimedia.org/wiki/File:MSX-Logo.svg (PD-textlogo; merkrechten blijven van toepassing). Lokaal opgeslagen in dist/assets/msx-logo.svg.
+
+## GitHub Pages
+
+Productiedomein: https://msxbasic.nl. Een push naar `main` publiceert automatisch `dist/` via `.github/workflows/pages.yml`. GitHub Pages is ingesteld op GitHub Actions. `www.msxbasic.nl` verwijst naar het hoofddomein.
+
+Cloudflare DNS: vier DNS-only A-records voor `@` naar `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`; een DNS-only CNAME `www` naar `randam.github.io`.
