@@ -11,3 +11,5 @@ De CSS-computers zijn gestileerd naar Philips VG-8235, Sony HB-F700P en Panasoni
 Games en screenshots: https://www.jeroenderwort.nl/wp-content/uploads/jermsx/jermsx.html
 
 Emulator: WebMSX 6.0 embedded-release uit https://github.com/ppeccin/WebMSX. Copyright Paulo Augusto Peccin; zie de verklaring in dist/emulator/wmsx.js en https://webmsx.org. Model- en merknamen behoren aan hun eigenaren.
+
+MSX-logo: de originele vectorvorm via https://commons.wikimedia.org/wiki/File:MSX-Logo.svg (PD-textlogo; merkrechten blijven van toepassing). Lokaal opgeslagen in dist/assets/msx-logo.svg.

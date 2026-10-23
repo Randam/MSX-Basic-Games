@@ -10,3 +10,5 @@
 @media(min-width:761px) and (max-width:1050px){.desk{height:630px}.library{max-height:823px}}
 @media(min-width:451px) and (max-width:760px){.desk{height:630px}}
 @media(max-width:450px){.desk{height:500px}}
+
+.wordmark .msx-logo{display:inline-block;width:66px;height:auto;vertical-align:-3px;margin-left:9px}.boot-brand{display:flex;align-items:center;gap:3px;letter-spacing:-2px}.boot-brand img{width:112px;height:auto;filter:invert(1);opacity:.9}.computer-top .hardware-logo{display:flex;align-items:center;gap:2px}.hardware-logo img{width:43px;height:auto;opacity:.65}[data-computer=sony] .hardware-logo img{filter:invert(1);opacity:.9}@media(max-width:450px){.boot-brand img{width:87px}.hardware-logo img{width:35px}.wordmark .msx-logo{width:59px}}
