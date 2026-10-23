@@ -1,0 +1,5 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MSX · WebMSX</title><style>html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#101b2b}#wmsx-screen{width:100%;height:100%}</style></head><body><div id="wmsx-screen"></div><script src="wmsx.js"></script><script>
+window.addEventListener('error',()=>parent.postMessage({type:'msx-error'},location.origin));
+window.addEventListener('message',e=>{if(e.origin!==location.origin||e.source!==parent)return;if(e.data?.type==='msx-crt'&&WMSX.room?.screen?.setScanlines)WMSX.room.screen.setScanlines(e.data.value?3:0)});
+window.addEventListener('load',()=>parent.postMessage({type:'msx-ready'},location.origin));
+</script></body></html>
