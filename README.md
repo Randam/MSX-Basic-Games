@@ -19,3 +19,13 @@ MSX-logo: de originele vectorvorm via https://commons.wikimedia.org/wiki/File:MS
 Productiedomein: https://msxbasic.nl. Een push naar `main` publiceert automatisch `dist/` via `.github/workflows/pages.yml`. GitHub Pages is ingesteld op GitHub Actions. `www.msxbasic.nl` verwijst naar het hoofddomein.
 
 Cloudflare DNS: vier DNS-only A-records voor `@` naar `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`; een DNS-only CNAME `www` naar `randam.github.io`.
+
+## Over MSX-BASIC
+
+`dist/msx-basic.html` bevat de achtergrondpagina, een klikbare screenshotgalerij, een opdrachtenoverzicht en een uitvoerbare beginnerslisting (`dist/examples/HALLO.BAS`). De nieuwe voorbeeldcode is apart herkenbaar van Jeroens historische programma’s.
+
+Teksten en originele media zijn gebaseerd op Jeroen Derworts artikelen:
+- https://www.jeroenderwort.nl/msx-basic-kracht/ (14 april 2019): listing, BOSS, sprite-editor, FM-PAC Basic Tracker en hiërogliefenvertaler.
+- https://www.jeroenderwort.nl/msx-tijdschriften/ (12 september 2025): foto van de MSX-tijdschriften.
+
+De media staan lokaal in `dist/assets/learn/`; de pagina verwijst bij de inhoud terug naar de oorspronkelijke artikelen. Externe naslagbronnen: MSX Wiki, het MCM/MCCM-archief, het MRC-forum en de officiële WebMSX-repository. Links en documentatie gecontroleerd op 24 oktober 2026.
