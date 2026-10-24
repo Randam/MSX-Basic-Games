@@ -29,3 +29,5 @@ Teksten en originele media zijn gebaseerd op Jeroen Derworts artikelen:
 - https://www.jeroenderwort.nl/msx-tijdschriften/ (12 september 2025): foto van de MSX-tijdschriften.
 
 De media staan lokaal in `dist/assets/learn/`; de pagina verwijst bij de inhoud terug naar de oorspronkelijke artikelen. Externe naslagbronnen: MSX Wiki, het MCM/MCCM-archief, het MRC-forum en de officiële WebMSX-repository. Links en documentatie gecontroleerd op 24 oktober 2026.
+
+De achtergrondpagina behandelt ook de MSX-standaard: de gezamenlijke basis van verschillende merken, de introductiejaren en verschillen van MSX1/MSX2/MSX2+/turbo R, softwarecompatibiliteit en de drie modellen in de speelkamer. Bronnen zijn bij de tekst en vergelijkingstabel gelinkt (MSX Wiki, MSX FAQ en MRC).
