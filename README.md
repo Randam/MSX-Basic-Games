@@ -31,3 +31,7 @@ Teksten en originele media zijn gebaseerd op Jeroen Derworts artikelen:
 De media staan lokaal in `dist/assets/learn/`; de pagina verwijst bij de inhoud terug naar de oorspronkelijke artikelen. Externe naslagbronnen: MSX Wiki, het MCM/MCCM-archief, het MRC-forum en de officiële WebMSX-repository. Links en documentatie gecontroleerd op 24 oktober 2026.
 
 De achtergrondpagina behandelt ook de MSX-standaard: de gezamenlijke basis van verschillende merken, de introductiejaren en verschillen van MSX1/MSX2/MSX2+/turbo R, softwarecompatibiliteit en de drie modellen in de speelkamer. Bronnen zijn bij de tekst en vergelijkingstabel gelinkt (MSX Wiki, MSX FAQ en MRC).
+
+## HTTPS en social previews
+
+GitHub Pages verzorgt het TLS-certificaat voor `msxbasic.nl` en `www.msxbasic.nl`; HTTPS wordt afgedwongen. Beide pagina’s hebben hun eigen canonical URL, Open Graph-titel en beschrijving, plus Twitter/X `summary_large_image`-metadata. De gedeelde afbeelding is `dist/assets/social-msxbasic.jpg` (1200 × 630). Deze gebruikt het bestaande logo, de CSS-computer en het originele Airplane-screenshot. De reproduceerbare compositie staat in `tools/social-card.html`: serveer de projectmap en maak een screenshot van die pagina met een viewport van exact 1200 × 630 pixels. Alleen `dist/` wordt gepubliceerd.
