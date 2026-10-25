@@ -1,5 +1,5 @@
 const $ = selector => document.querySelector(selector);
-const games = await fetch('games.json').then(r => r.json());
+const games = await fetch('games.json?v=20261025').then(r => r.json());
 const models = {
   vg8020: {name:'PHILIPS',model:'VG-8020',type:'MSX1',generation:1,machine:'MSX1E',hz:'PAL / 50 Hz',ram:64,basic:'1.0',copyright:1983,image:'vg-8020.svg',alt:'Philips VG-8020: zilveren bovenkant, zwarte cartridgeklep en toetsenbordrand, lichte toetsen en rode richtingstoetsen'},
   vg8235: {name:'PHILIPS',model:'VG-8235',type:'MSX2',generation:2,machine:'MSX2E',hz:'PAL / 50 Hz',ram:256,basic:'2.0',copyright:1985,image:'vg-8235.svg',alt:'Philips VG-8235: donkere systeemkast met ventilatiesleuven, zijwaartse diskdrive en apart scharnierend toetsenbord met richtingstoetsen'},
