@@ -85,6 +85,23 @@
     "generationGroup": "MSX1"
   },
   {
+    "id": "canon-v-20",
+    "title": "Canon V-20",
+    "brand": "Canon",
+    "year": 1985,
+    "generation": "MSX1",
+    "ram": "64 kB",
+    "features": "Europese uitvoering, twee cartridgesleuven, Z80-processor, 16 kB VRAM",
+    "changes": "",
+    "description": "De Canon V-20 is een MSX1 met een donkere behuizing en opvallende oranje richtingstoetsen. De Europese uitvoering verscheen in 1985 en heeft 64 kB RAM, 16 kB videogeheugen en een QWERTY-toetsenbord. Er zijn twee cartridgesleuven: één bovenop en één aan de linkerkant. Via de cassetteaansluiting kunnen programma’s op band worden geladen en bewaard.",
+    "reference": "https://www.msx.org/wiki/Canon_V-20_(EU)",
+    "sourceImage": "https://www.msx.org/wiki/images/5/52/Canon_MSX_V20.jpg",
+    "image": "assets/collection/canon-v-20.jpg",
+    "photoCredit": "MSX Wiki / MSX Resource Center",
+    "photoSource": "https://www.msx.org/wiki/Canon_V-20_(EU)",
+    "generationGroup": "MSX1"
+  },
+  {
     "id": "philips-vg-8010",
     "title": "Philips VG-8010",
     "brand": "Philips",
