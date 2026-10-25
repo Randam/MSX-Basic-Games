@@ -6,7 +6,7 @@ Start vanuit deze map: `python3 -m http.server 4173 --directory dist`. Open http
 
 `dist/` is de volledige statische website, zonder installatie of build. Upload die map om zelf te hosten. Games en emulator worden vanaf dezelfde server geladen. Google Fonts zijn optioneel, met lokale fallbacks.
 
-De eigen SVG-illustraties volgen de Philips VG-8020, Philips VG-8235, Sony HB-F500P en Panasonic FS-A1ST. WebMSX gebruikt generieke MSX1-, MSX2- en turbo R-profielen met passende RAM-instellingen; geen modelspecifieke firmware. De VG-8020-selectie bevat 21 opstartgeteste games. Zie `tools/computers.md` voor fotoreferenties en de compatibiliteitscontrole. Games zijn ongewijzigd, inclusief de oorspronkelijke Fantasieland 3 ZIP.
+De eigen SVG-illustraties volgen de Philips VG-8020, Philips VG-8235, Sony HB-F700P en Panasonic FS-A1ST. WebMSX gebruikt generieke MSX1-, MSX2- en turbo R-profielen met passende RAM-instellingen; geen modelspecifieke firmware. De VG-8020-selectie bevat 21 opstartgeteste games. Zie `tools/computers.md` voor fotoreferenties en de compatibiliteitscontrole. Games zijn ongewijzigd, inclusief de oorspronkelijke Fantasieland 3 ZIP.
 
 Games en screenshots: https://www.jeroenderwort.nl/wp-content/uploads/jermsx/jermsx.html
 
@@ -42,4 +42,4 @@ GitHub Pages verzorgt het TLS-certificaat voor `msxbasic.nl` en `www.msxbasic.nl
 
 Brongegevens: `dist/collection.json`. Na inhoudswijzigingen: `python3 tools/build-collection.py`. Dit maakt alleen `verzameling.html` opnieuw. De bronfoto’s staan lokaal in `dist/assets/collection/`; zeven kleine of minder geschikte afbeeldingen zijn vervangen door MSX Wiki-foto’s (Hitachi MB-H3, NMS 801, FS-A1WSX, FS-A1ST, PHC-77, PHC-70FD en HX-20). Herkomst en fotolinks staan per model in JSON en bij de details op de pagina. De foto’s blijven volledig zichtbaar via object-fit: contain. De paginastijl staat in `collection.css`.
 
-Kleine redactionele correcties ten opzichte van de bron: Mitsubishi als merk bij ML-TS2, officieel modelnummer HB-F700P, correcte verwijzingen voor HB-F5/HB-F700P/HX-20, 4 MB bij de omgebouwde HX-10 en 512 kB als uitbreiding bij FS-A1ST. Turbo R is omschreven als de laatste officiële generatie; de FS-A1GT volgde nog op de FS-A1ST. De eerder gekozen HB-F500P in de speelkamer is behouden.
+Kleine redactionele correcties ten opzichte van de bron: Mitsubishi als merk bij ML-TS2, officieel modelnummer HB-F700P, correcte verwijzingen voor HB-F5/HB-F700P/HX-20, 4 MB bij de omgebouwde HX-10 en 512 kB als uitbreiding bij FS-A1ST. Turbo R is omschreven als de laatste officiële generatie; de FS-A1GT volgde nog op de FS-A1ST. De speelkamer gebruikt eveneens de HB-F700P met 256 kB RAM.
