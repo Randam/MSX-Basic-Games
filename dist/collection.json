@@ -306,6 +306,23 @@
     "generationGroup": "MSX2"
   },
   {
+    "id": "sony-xv-j777",
+    "title": "Sony XV-J777",
+    "brand": "Sony",
+    "year": "Onbekend",
+    "generation": "MSX2-gebaseerde videotitler",
+    "ram": "64 kB",
+    "features": "Yamaha V9938 met 128 kB VRAM, superimpose, IC-geheugenkaart, aparte bediening en muis",
+    "changes": "",
+    "description": "De Sony XV-J777 is een Japanse videotitler met MSX2-hardware. Hij is bedoeld om teksten en titels over videobeeld te leggen, niet als gewone homecomputer. Binnenin zitten onder meer een Z80, 64 kB RAM en de Yamaha V9938-videoprocessor met 128 kB videogeheugen. Het apparaat draait ingebouwde titelsoftware en heeft geen gewone MSX-cartridgesleuf of diskdrive. Een IC-kaartsleuf dient voor het bewaren van titels.",
+    "reference": "https://www.msx.org/wiki/Sony_XV-J777",
+    "sourceImage": "https://www.msx.org/wiki/images/a/ab/Sony_XV-J777.jpg",
+    "image": "assets/collection/sony-xv-j777.jpg",
+    "photoCredit": "MSX Wiki / MSX Resource Center",
+    "photoSource": "https://www.msx.org/wiki/Sony_XV-J777",
+    "generationGroup": "MSX2"
+  },
+  {
     "id": "panasonic-fs-a1",
     "title": "Panasonic FS-A1",
     "brand": "Panasonic",
