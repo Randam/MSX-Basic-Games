@@ -42,6 +42,7 @@ function start(){
   $('#screen').classList.remove('off-screen');$('#power').setAttribute('aria-pressed','true');$('#idle').hidden=true;
   const m=currentModel(),frame=$('#emulator');frame.hidden=false;
   frame.src='emulator/index.html?'+new URLSearchParams({MACHINE:m.machine,RAMMAPPER_SIZE:String(m.ram),RAMNORMAL_SIZE:'64',DISKA_FILES_URL:'../games/'+selected.file,BASIC_RUN:selected.run,SCREEN_FULLSCREEN_MODE:'2',SCREEN_CONTROL_BAR:'0',SCREEN_CRT_SCANLINES:'0',SCREEN_FILTER_MODE:'0',AUTO_POWER_ON_DELAY:'0',CPU_SOFT_TURBO_AUTO_ON:'0'});
+  document.dispatchEvent(new CustomEvent('msx-game-start',{detail:{game:selected.title,computer:m.model}}));
   status('Laden: '+selected.title+'…');$('#start').innerHTML='Opnieuw spelen <span>↗</span>';
 }
 window.addEventListener('message',event=>{
